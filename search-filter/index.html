@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/largeScreen.css">
+    <title>filter products</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>filter products</h1>
+            <div class="search-box">
+                <form>
+                    <input type="text" placeholder="search products ..." id="search">
+                </form>
+            </div>
+            <div class="filter-box">
+                <a href="#" class="btn" data-filter=''>All</a>
+                <a href="#" class="btn" data-filter='watch'>watch</a>
+                <a href="#" class="btn" data-filter='shirt'>shirt</a>
+                <a href="#" class="btn" data-filter='gown'>gown</a>
+                <a href="#" class="btn" data-filter='jewelry'>jewelry</a>
+            </div>
+        </div>
+    </header>
+    <section class="products"></section>
+
+
+    <script type="module" src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
+        integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

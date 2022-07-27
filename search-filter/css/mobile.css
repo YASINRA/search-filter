@@ -1,0 +1,9 @@
+@media screen and (min-width: 500px) {
+    #search {
+        width: 23rem;
+    }
+
+    .product {
+        width: 30rem;
+    }
+}

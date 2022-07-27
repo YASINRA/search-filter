@@ -1,0 +1,12 @@
+@media screen and (min-width: 601px) {
+    .products {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 85rem !important;
+    }
+
+    .product {
+        height: 30%;
+    }
+}

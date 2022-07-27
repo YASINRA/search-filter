@@ -1,0 +1,39 @@
+{
+  "items": [
+      {
+          "id" : "1",
+          "title": "watch product",
+          "class" : "watch",
+          "price" : 10.99,
+          "image" : "./assets/images/5.jpg"
+      },
+      {
+          "id" : "2",
+          "title": "shirt product",
+          "class" : "shirt",
+          "price" : 14.99,
+          "image" : "./assets/images/4.png"
+      },
+      {
+          "id" : "3",
+          "title": "gown product",
+          "class" : "gown",
+          "price" : 70.99,
+          "image" : "./assets/images/3.jpg"
+      },
+      {
+          "id" : "4",
+          "title": "jewelry product",
+          "class" : "jewelry",
+          "price" : 19.99,
+          "image" : "./assets/images/1.jpg"
+      },
+      {
+          "id" : "5",
+          "title": "jewelry product",
+          "class" : "jewelry",
+          "price" : 12.99,
+          "image" : "./assets/images/2.jpg"
+      }
+  ]   
+}
